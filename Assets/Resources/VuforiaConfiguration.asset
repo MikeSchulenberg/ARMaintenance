@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AU5O2uL/////AAABmXZFCuQMoUYImUEtsACZkA81Dx63+w3xDMSzA3jE8celWyqEPlZ59kkeLTr4dxfsQJbY49toBGdzPnKYOiznryQ9/AwokFsy/Er1W8naJBFwp/pUN8fucYRd4XU4uurposNWgWGoVGmBZQ/Glv/9ethvxk1zBgM0Nj0MBCTH3xfQxPNSWXubUwlIyMxYEHWCPylT8E65LOBs03atWFrVr2D0KOVNHIzGXI8zMcuP2eG5KOKSusz9MliB/jylsy3nqUkyXqaoFk5WUq61PcUrvwjWcwoIEUTZa1EGWr5GwIQ3erNMCqPuF/QFI8tr3xB9aIDAiVXeTo65hsvBiJ2cDkMecXq0ARRAP+czaJP+sDHd
+    vuforiaLicenseKey: AToHXBv/////AAAAmdd0aSSuTEXlq0miLZfDcRd6vYS96y+6ePYSsR+XmPhrBJuWuaUd+a1BoHrbfMI8aziLEq5isJboPmaxlLCcB4Or4od2U0Ry2nI/PX3Ge2tcpNLCgLZYJw7LV2E7IsynkGBZNgFjZKIJT1oaRWBBm9qm0l28vj+CsNE9camgbMU6EJXIbvd4eR4iVW3znPBAJnp2zVhVsK+KL2EC4/qm4h50yzbh6i3OgHDpniNBqg3kcBovi3ExtN1w5VIUHt9/n4sN+xkGa06VZiObnl4jBHEEc5TP9Rzji2jiUBGSKawVDEpoaxIJvIhM7xb55zgLPEcxk5IPSWsb1BThKK3MhLcfV8nWCD9XDr5ybs0FS9nc
     ufoLicenseKey: QVhYMUY4VC8vLy8vQUFBQUtJWlNseC9SbzBMN25XeWhMdXEvcWZKK2RsRk5EdUZ1M0ZDcmtiWlpwNVI0dERNQi9xWC9xb0tQb0U4UURYUC9SZ0xFRkRHeGU0MmRPa2pXQ1hrc0JhSUowVmU4MWJtdm5RU0pmMVJkbURFSHltNFpLeDF5UUdmWGRLWHZiTVZxeGd5Yjg5NVQySHlDajZncTJrM1BNR1RvaDd4eW9CNis0a0JhdDEybi9HbWNGaTNvQ0NwTDNvVVBLWW5JaGJqODVIdmVoY2VSRjhWT1RGVkFzQXFyZ2FLbDlrVG1tZWloY3hESE1XRXZla3JhbUp2WGlmUDhHemYyZDNHekNMNFRKaEo4b3EvZnZsS3QrQUxNL0YrV2ZhRStTYzdkQTQvU2F6d3I5ZFpUSW1HY0pCNXBvc2pWUmgyT3dxWFJLY2hXZGcrM29lcWlyOVR6bXk4aFNPdmZxcWZibVFXZFkxd1dXMHV6QVJMcEtjb1U=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -21,6 +21,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
+    version: 7.2.23
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -42,13 +43,6 @@ MonoBehaviour:
       DistortionCoefficients: {x: 0, y: 0}
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
-  databaseLoad:
-    dataSetsToLoad:
-    - ShipcomAR_OT
-    - ShipcomAR
-    dataSetsToActivate:
-    - ShipcomAR_OT
-    - ShipcomAR
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -64,6 +58,7 @@ MonoBehaviour:
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
+    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
