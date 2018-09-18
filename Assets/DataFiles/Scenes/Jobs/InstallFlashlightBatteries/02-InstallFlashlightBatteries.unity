@@ -2132,7 +2132,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Loading ...
+  m_Text: Remove BATTERY INSERT from BATTERY COMPARTMENT
 --- !u!222 &2134247971
 CanvasRenderer:
   m_ObjectHideFlags: 0

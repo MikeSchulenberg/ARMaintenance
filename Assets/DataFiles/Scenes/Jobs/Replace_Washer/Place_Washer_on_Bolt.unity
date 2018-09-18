@@ -1139,7 +1139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Loading ...
+  m_Text: Place new WASHER onto the BOLT
 --- !u!222 &1169372217
 CanvasRenderer:
   m_ObjectHideFlags: 0

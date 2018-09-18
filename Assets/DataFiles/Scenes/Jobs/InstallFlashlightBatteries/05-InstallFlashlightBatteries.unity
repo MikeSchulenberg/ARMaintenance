@@ -1496,7 +1496,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Loading ...
+  m_Text: Reinstall TAIL CAP onto flashlight to seal BATTERY COMPARTMENT
 --- !u!222 &1491418444
 CanvasRenderer:
   m_ObjectHideFlags: 0

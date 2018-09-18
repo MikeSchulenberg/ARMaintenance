@@ -932,7 +932,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Loading ...
+  m_Text: Unscrew TAIL CAP to expose BATTERY COMPARTMENT
 --- !u!224 &935561947
 RectTransform:
   m_ObjectHideFlags: 0
