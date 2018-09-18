@@ -41,16 +41,20 @@ public class ConfirmationMenu : MonoBehaviour {
 		{
             if (!onCall)
             {
-                dbcon.ConnectToDB();
-                dbcon.Query("Task", "CallExpert");
-                dbcon.CloseConn();
-                confirmationMsg.text = dbcon.GetText();
+                /* TEMPORARY WORKAROUND - DATABASE DOESN'T WORK ON ALL PLATFORMS */
+				// dbcon.ConnectToDB();
+                // dbcon.Query("Task", "CallExpert");
+                // dbcon.CloseConn();
+				confirmationMsg.text = "Do you want to call an expert?";
+                // confirmationMsg.text = dbcon.GetText();                
             } else if(onCall)
             {
-                dbcon.ConnectToDB();
-                dbcon.Query("Task", "HangUp");
-                dbcon.CloseConn();
-                confirmationMsg.text = dbcon.GetText();
+                /* TEMPORARY WORKAROUND - DATABASE DOESN'T WORK ON ALL PLATFORMS */
+				// dbcon.ConnectToDB();
+                // dbcon.Query("Task", "HangUp");
+                // dbcon.CloseConn();
+				confirmationMsg.text = "Do you want to end the call?";
+                // confirmationMsg.text = dbcon.GetText();               
             }
 		}
 
@@ -70,10 +74,12 @@ public class ConfirmationMenu : MonoBehaviour {
 	{
         try
 		{
-			dbcon.ConnectToDB();
-        	dbcon.Query("Task", "CompleteJob");
-        	dbcon.CloseConn();
-        	confirmationMsg.text = dbcon.GetText();
+			/* TEMPORARY WORKAROUND - DATABASE DOESN'T WORK ON ALL PLATFORMS */
+			// dbcon.ConnectToDB();
+        	// dbcon.Query("Task", "CompleteJob");
+        	// dbcon.CloseConn();
+			confirmationMsg.text = "Do you want to complete the current job?";
+        	// confirmationMsg.text = dbcon.GetText();       	
 		}
 
 		catch (Exception e)
@@ -92,10 +98,12 @@ public class ConfirmationMenu : MonoBehaviour {
 	{
 		try
 		{
-			dbcon.ConnectToDB();
-        	dbcon.Query("Task", "GoHome");
-        	dbcon.CloseConn();
-        	confirmationMsg.text = dbcon.GetText();
+			/* TEMPORARY WORKAROUND - DATABASE DOESN'T WORK ON ALL PLATFORMS */
+			// dbcon.ConnectToDB();
+        	// dbcon.Query("Task", "GoHome");
+        	// dbcon.CloseConn();
+			confirmationMsg.text = "Do you want to go to the Home screen?";
+        	// confirmationMsg.text = dbcon.GetText();      	
 		}
 
 		catch (Exception e)
