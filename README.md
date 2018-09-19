@@ -40,3 +40,13 @@ Most of the Job icons activate a placeholder job with a single instruction.
 'Regular Schedule Electrical Maintenance->Install Batteries Into Flashlight' is a job with 5 instructions using an Image Target available in ARMaintenance.zip.
 
 'Regular Schedule Mechanical Maintenance->Replace Washer' is a job with 4 instructions using a specific real-world object as an Object Target. Because that object cannot be made available, the application does not demonstrate this job to its full potential.
+
+## To View an Example Job
+1. Print InstallFlashlightBatteries.jpg on a standard sheet of paper.  
+   The example job uses this graphic as an Image Target.
+2. On an Android device, start the AR Maintenance application.
+3. On the Home screen, tap the 'Regular Schedule Mechanical Maintenance' icon.
+4. On the Electrical Maintenance screen, tap the 'Install Batteries Into Flashlight' icon.
+5. Once the AR mode has been activated, point the Android device's camera at the InstallFlashlightBatteries.jpg printout. Adjust the distance between the device and the printout as needed for the AR objects to appear on the device's screen.
+6. Navigate through the job as described above in 'Using the Application.'
+
