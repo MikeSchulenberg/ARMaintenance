@@ -50,3 +50,4 @@ Most of the Job icons activate a placeholder job with a single instruction.
 5. Once the AR mode has been activated, point the Android device's camera at the InstallFlashlightBatteries.jpg printout. Adjust the distance between the device and the printout as needed for the AR objects to appear on the device's screen.
 6. Navigate through the job as described above in 'Using the Application.'
 
+![alt text](https://github.com/MikeSchulenberg/ARMaintenance/blob/master/ARMaintenance-img.png)
