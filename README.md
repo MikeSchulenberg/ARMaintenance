@@ -22,3 +22,21 @@ This prototype was built using the Unity game development platform, the Vuforia 
 - AR Maintenance.apk
 - InstallFlashlightBatteries.jpg
 - readme.txt
+
+#### Installation
+Unzip the contents of ARMaintenance.zip and copy 'AR Maintenance.apk' to an Android device. Browse to the .apk on the device and tap the file to install.
+
+## Using the Application
+On an Android device, tap the 'AR Maintenance' icon to start the application.
+
+The Home screen displays icons for 4 broad categories of maintenance jobs. Tap one of the icons to view the jobs available in each category. Tap one of the Job icons to start the augmented reality camera.
+
+A job is represented as a sequence of instructions with corresponding AR objects. The top of the screen displays the current instruction. The right arrow advances the job to the next instruction, or requests user confirmation to complete the job if on the last instruction. The left arrow reverts the job to the previous instruction, or returns to the Home screen if on the first instruction.
+
+The Home button allows the user to return to the Home screen at any time. The Call Expert button activates a placeholder for functionality that would enable users to videoconference with a support representative if additional assistance is required. Implementing this functionality was beyond the scope of the assignment.
+
+Most of the Job icons activate a placeholder job with a single instruction.
+
+'Regular Schedule Electrical Maintenance->Install Batteries Into Flashlight' is a job with 5 instructions using an Image Target available in ARMaintenance.zip.
+
+'Regular Schedule Mechanical Maintenance->Replace Washer' is a job with 4 instructions using a specific real-world object as an Object Target. Because that object cannot be made available, the application does not demonstrate this job to its full potential.
